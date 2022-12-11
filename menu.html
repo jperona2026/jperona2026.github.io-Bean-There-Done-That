@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bean There, Done That</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0px;
+                width: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/02/24115640/Untitled-design-2022-02-18T123717.280.jpg);
+                background-size: cover;
+            }
+            header p {
+                margin: 0px;
+            }
+            nav ul {
+                width: auto;
+                list-style-type: none;
+                padding: 0;
+                overflow: hidden;
+                margin-left: 0px;
+                margin-right: auto;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                background-color: #63512cea;
+            } 
+            nav ul li {
+                float: left;
+                height: 100px;
+                text-align: center;
+                width: 25%;
+            }
+            nav ul li a {
+                display: block;
+                color: white;
+                padding: 31px 16px;
+                text-decoration: none;
+                font-size: 22pt;
+                font-family: 'Abel', sans-serif;
+                text-align: center;
+            }
+            nav ul li:hover {
+                background-color: #0F1108;
+            }
+            section {
+                background-color: #D6D1B1;
+                height: 325px;
+            }
+            h1 {
+                font-size: 36pt;
+                font-family: 'Abel', sans-serif;
+                padding-left: 20px;
+                -webkit-text-fill-color: whitesmoke;
+            }
+            section h2 {
+                padding: 3px;
+                font-size: 30pt;
+                font-family: 'Abel', sans-serif;
+                padding-left: 20px;
+            }
+            section h3 {
+                font-size: 24pt;
+                font-family: 'Abel', sans-serif;
+                text-decoration: none;
+            }
+            section img {
+                float: right;
+                padding-left: 15px;
+            }
+            aside {
+                float: left;
+                height: 300px;
+                text-align: center;
+                width: 20%;
+            }
+            #feature {
+                width: auto;
+                height: 300px;
+                width: 100%;
+                font-family: 'Lobster Two', cursive;
+                font-size: 20pt;
+                -webkit-text-fill-color: white;
+                text-align: center;
+            }
+            #logo {
+                padding-top: 120px;
+            }
+            .content {
+            padding: 16px;
+            }
+
+            .stickynavbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+
+            .sticky + .content {
+            padding-top: 60px;
+            }
+
+            li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 31px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color:#0F1108;
+            }
+
+            li.dropdown {
+            display: inline-block;
+            }
+
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #0F1108;
+                -webkit-text-fill-color: white;
+            }
+
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+            .container-tea{
+            height: 675px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            padding: 20px;
+            background-color: #D6D1B1;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 18px;
+            margin-left: 18px;
+            width: 21%;
+        }
+        .container-pastries{
+            height: 675px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            padding: 20px;
+            background-color: #D6D1B1;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 12px;
+            margin-left: 12px;
+            width: 30%;
+        }
+        .container-tea img {
+            margin: auto;
+            display: flex;
+        }
+        .container-pastries img {
+            margin: auto;
+            display: flex;
+        }
+        .container h2 {
+            text-align: center;
+        }
+         </style>
+    </head>
+    <body>
+        <header id="feature">
+            <div id="logo"><img src="Cafe_Logo.png" height="100" alt="Cafe Logo"></div>
+            <p>Bean There, Done That</p>
+        </header>
+        <nav class="stickynavbar">
+            <ul>
+                <li><a href="index.html">The Cafe</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                      <a href="#Coffee">Coffee</a>
+                      <a href="#Tea">Tea</a>
+                      <a href="#Pastries">Pastries</a>
+                    </div><a href="menu.html"></a>
+                </li>
+                <li><a href="about_us.html">About Us</a></li>             
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+        <div id="Coffee">
+            <h1>Coffee</h1>
+            <section>
+                <img src="Turkey-Coffee.jpg" height="325" alt="Turkish Coffee">
+                <h2>Turkey: Türk Kahvesi</h2>
+                <blockquote><h3>Served in a copper pot, the Türk Kahvesi has a foamy texture which you may enjoy! Watch out though, this coffee does not contain cream nor milk. We also add cardamom for that kick while drinking it!</h3>
+                <h3> Price: 125 Pesos</h3></blockquote>
+            </section>
+            <section>
+                <img src="Sweden-Coffee.jpg" height="325" alt="Swedish Coffee">
+                <h2>Sweden: Kaffeost</h2>
+                <blockquote><h3>A niche product we create is called the Kaffeost. It is a Swedish and Finnish drink wherein we put Leipäjuusto cheese cubes in coffee, yes, cheese!</h3>
+                <h3>Price: 150 Pesos</h3>
+                <h3>Extra Cheese: +20 Pesos</h3></blockquote>
+            </section>
+            <section style="height: 370px;">
+                <img src="Greece-Coffee.jpg" height="325" alt="Greek Coffee" style="padding-top: 25px; padding-bottom: 25px;">
+                <h2>Greece: Frappe</h2>
+                <blockquote><h3>I'm sure we're all familiar with what a frappe is. A cold beverage made out of instant coffee (who knew!?), water, sugar, and foamed milk, plenty of foamed milk. We serve them in 3 flavors: plain, chocolate, and caramel!</h3>
+                <h3>Prices: Plain - 120 Pesos || Chocolate - 130 Pesos || Caramel - 130 Pesos</h3>
+                <h3>Chocolate Chips: +20 Pesos || Whipped Cream +15 Pesos</h3></blockquote>
+            </section>
+            <section>
+                <img src="Mexico-Coffee.jpg" height="325" alt="Mexican Coffee">
+                <h2>Mexico: Café de Olla</h2>
+                <blockquote><h3>Brewed inside of a claypot, we add unrefined cane sugar, orange peel, cloves, allspice, and cinnamon to give the coffee flavor.</h3>
+                <h3>Price: 125 Pesos</h3></blockquote>
+            </section>
+            <section>
+                <img src="Vietnam-Coffee.jpg" height="325" alt="Vietnamese Coffee">
+                <h2>Vietnam: Ca Phe Da</h2>
+                <blockquote><h3>Brewed through a French drip filter into a cup of ice mixed with condensed milk. This drink is extra sweet and extra strong!</h3>
+                <h3>Price: 150 Pesos</h3>
+                <h3>Condensed Milk drip: +20 Pesos</h3></blockquote>
+            </section>
+        </div>
+        <div id="Tea">
+            <h1>Tea</h1>
+            <div class="container-tea">
+                <img src="India-Tea.webp" height="350" width="300" alt="Indian Tea">
+                <h2>India: Golden Chai</h2>
+                <blockquote><h3>Developed almost 5,000 years ago, the Chai Tea has become a staple drink around the globe, and has landed here in our cafe! Buy one now!</h3>
+                <h3>Price: 100 Pesos</h3></blockquote>
+            </div>
+            <div class="container-tea">
+                <img src="China-Tea.webp" height="350" width="300" alt="Chinese Tea">
+                <h2>China: Jasmine Green Tea</h2>
+                <blockquote><h3>The Jasmine Green Tea combines the Jasmine flower buds and the Green Tea leaves to create an aromatic experience like no other.</h3>
+                <h3>Price: 100 Pesos</h3></blockquote>
+            </div>
+            <div class="container-tea">
+                <img src="Taiwan-Tea.webp" height="350" width="300" alt="Taiwanese Tea">
+                <h2>Taiwan: Gunpowder Green Tea</h2>
+                <blockquote><h3>Each individual leaf is rolled up into a ball, similarly like a grain of gunpowder. Each leaf is withered, steamed, rolled, and then dried protecting the tea from damage and allowing it to retain its flavour and prevent oxidation.</h3>
+                <h3>Price: 100 Pesos</h3></blockquote>
+            </div>
+            <div class="container-tea">
+                <img src="Egypt-Tea.webp" height="350" width="300" alt="Egyptian Tea">
+                <h2>Egypt: Chamomile Tea</h2>
+                <blockquote><h3>Chamomile is made from a daisy-like plant which serves various medicinal purposes and offers a warm, earthy, floral experience.</h3>
+                <h3>Price: 100 Pesos</h3></blockquote>
+            </div>
+        </div>
+        <div id="Pastries">
+            <h1>Pastries</h1>
+            <div class="container-pastries">
+                <img src="Germany-Pastry.jpg" height="325" width="500" alt="German Pretzels">
+                <h2>Germany: Pretzels</h2>
+                <blockquote><h3>Who doesn't love a soft, salty, and delicious pretzel? We bake them fresh daily to ensure utmost quality!</h3>
+                <h3>Price: 125 Pesos, 5 pcs. </h3></blockquote>
+            </div>
+            <div class="container-pastries">
+                <img src="Spain-Pastry.jfif" height="325" width="500" alt="Spanish Churros">
+                <h2>Spain: Churros</h2>
+                <blockquote><h3>Crunchy on the outside, soft on the inside! That's how you should enjoy Churros, luckily, we have them just like that and comes in 2 different dips, Condensed Milk and Chocolate!</h3>
+                <h3>Price: 125 Pesos, 5 pcs.</h3></blockquote>
+            </div>
+            <div class="container-pastries">
+                <img src="Philippines-Pastry.jpg" height="325" width="500" alt="Filipino Pandesal">
+                <h2>Philippines: Pandesal</h2>
+                <blockquote><h3>Of course, how could we leave out one of the most well-known Filipino foods. One of these soft buns goes perfectly with each and every coffee in our shop, so grab a dozen while your here!</h3>
+                <h3>Price: 100 Pesos, 1 dozen.</h3></blockquote>
+            </div>
+        </div>

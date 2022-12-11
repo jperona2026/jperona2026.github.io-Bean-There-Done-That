@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bean There, Done That</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/02/24115640/Untitled-design-2022-02-18T123717.280.jpg);
+                background-size: cover;
+            }
+            header p {
+                margin: 0px;
+            }
+            nav ul {
+                width: auto;
+                list-style-type: none;
+                padding: 0;
+                overflow: hidden;
+                margin-left: 0px;
+                margin-right: auto;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                background-color: #63512cea;
+            } 
+            nav ul li {
+                float: left;
+                height: 100px;
+                text-align: center;
+                width: 25%;
+            }
+            nav ul li a {
+                display: block;
+                color: white;
+                padding: 31px 16px;
+                text-decoration: none;
+                font-size: 22pt;
+                font-family: 'Abel', sans-serif;
+                text-align: center;
+            }
+            nav ul li:hover {
+                background-color: #0F1108;
+            }
+            section {
+                background-color: #D6D1B1;
+                height: 325px;
+            }
+            section h2 {
+                font-size: 30pt;
+                font-family: 'Abel', sans-serif;
+                padding-left: 20px;
+                padding-right: 10px;
+            }
+            section h3 {
+                font-size: 24pt;
+                font-family: 'Abel', sans-serif;
+                text-decoration: none;
+            }
+            #feature {
+                width: auto;
+                height: 300px;
+                width: 100%;
+                font-family: 'Lobster Two', cursive;
+                font-size: 20pt;
+                -webkit-text-fill-color: white;
+                text-align: center;
+            }
+            #logo {
+                padding-top: 120px;
+            }
+            .content {
+            padding: 16px;
+            }
+
+            .stickynavbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+
+            .sticky + .content {
+            padding-top: 60px;
+            }
+
+            li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 31px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color:#0F1108;
+            }
+
+            li.dropdown {
+            display: inline-block;
+            }
+
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #0F1108;
+                -webkit-text-fill-color: white;
+            }
+
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+            .img1 {
+                float: left;
+                display: flex;
+                margin: auto;
+                padding-right: 10px;
+            }
+            .img2 {
+                float: right;
+                display: flex;
+                margin: auto;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="feature">
+            <div id="logo"><img src="Cafe_Logo.png" height="100" alt="Cafe Logo"></div>
+            <p>Bean There, Done That</p>
+        </header>
+        <nav class="stickynavbar">
+            <ul>
+                <li><a href="index.html">The Cafe</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about_us.html">About Us</a></li>             
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="img1"><img src="coffee1.webp" width="600" height="325" alt="Coffee"></div>
+            <h2>Who are we?</h2>
+            <blockquote><h3>We are a cafe that specializes in create high-quality coffee, tea, and pastries from around the world.
+            We only use high-quality ingredients to ensure our customers' experience is top-notch. Take a deep-dive of our menu <a href="menu.html" style="text-decoration: none; color:chocolate;">here.</a></h3></blockquote>
+        </section>
+        <section>
+            <div class="img2"><img src="tea1.webp" width="600" height="325" alt="Tea"></div>
+            <h2>Why did we create the cafe?</h2>
+            <blockquote><h3>To expose people to the other types of coffee, tea, and pastries around the world. The world is a diverse place with different cultures, so through us you can experience the different culinary practices of different cultures, at an affordable price!</h3></blockquote>
+        </section>
+        <section>
+            <div class="img1"><img src="pastry1.jpeg" width="600" height="325" alt="Pastry"></div>
+            <h2>What makes our cafe unique?</h2>
+            <blockquote><h3>Aside from our freshly made goods, we take some of the finest foods around the globe and elevate it to create an environment like no other!</h3></blockquote>
+        </section>
